@@ -14,7 +14,7 @@ A. mellifera has almost 30 subspecies whose morphological, behavioural, physiolo
 
 Studies investigating their health on a molecular level could potentially benefit from a consensus genome which better represents the species or a specific population. Constructing a consensus genome for this species will also aid invaluable research investigating recombination hotspots and haplotype structure.
 
-As proof of concept the consensus genome has been constructed using the Carnica subspecies. 
+As proof of concept the consensus genome has been constructed using the Carnica subspecies. The code was written in Python. 
 
 ### ii. RESOURCES
 The A. mellifera refernece genome was donloaded through this link "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_003254395.2/" onto BASH command line. 
