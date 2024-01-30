@@ -1,5 +1,4 @@
 ##Read in the .vcf file using Python pandas package
-
 import pandas as pd 
 path=(r'[path to .vcf file]')
 vcf_full_file=pd.read_csv(path, sep='\t', skiprows=20)
