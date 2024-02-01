@@ -33,6 +33,7 @@ with open("carnica_changes_fullfile.txt","r") as file:
                 chromosome_dict.update({line[0]: {line[1]: (line[2], line[3])}})
             else:
                 i_dict.update({line[1]: (line[2], line[3])})
+
 ##Use BioPython package SeqIO to contrsuct the consensus genome
 ##A loop is created through the python dictionary to combine the A.mellifera reference genome and the new sequence with replaced alleles
 from Bio.Seq import Seq
